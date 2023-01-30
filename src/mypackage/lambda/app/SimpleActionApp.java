@@ -33,5 +33,12 @@ public class SimpleActionApp {
         };
         System.out.println(simpleAction2.action("Nursalim"));
 
+
+        // Lambda Tanpa Blok
+        SimpleAction simpleAction3 = (String value) -> "Hello " + value;
+        System.out.println(simpleAction3.action("Nursalim"));
+
+        SimpleAction simpleAction4 = value -> "Hello " + value;
+        System.out.println(simpleAction4.action("Nursalim"));
     }
 }

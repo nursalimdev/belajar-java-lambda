@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fab221da-95ee-47de-90bb-00c770fea035" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/belajar-java-lambda.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mypackage/lambda/app/SimpleActionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mypackage/lambda/app/SimpleActionApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +36,46 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SupplierApp">
+    <configuration name="ConsumerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mypackage.lambda.app.ConsumerApp" />
+      <module name="belajar-java-lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mypackage.lambda.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mypackage.lambda.app.FunctionApp" />
+      <module name="belajar-java-lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mypackage.lambda.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredicateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mypackage.lambda.app.PredicateApp" />
+      <module name="belajar-java-lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mypackage.lambda.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleActionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mypackage.lambda.app.SimpleActionApp" />
       <module name="belajar-java-lambda" />
@@ -54,8 +89,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SupplierApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mypackage.lambda.app.SupplierApp" />
+      <module name="belajar-java-lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mypackage.lambda.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SupplierApp" />
+        <item itemvalue="Application.PredicateApp" />
+        <item itemvalue="Application.FunctionApp" />
+        <item itemvalue="Application.ConsumerApp" />
         <item itemvalue="Application.SimpleActionApp" />
       </list>
     </recent_temporary>
