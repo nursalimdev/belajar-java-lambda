@@ -36,9 +36,22 @@
     "last_opened_file_path": "C:/Data/nursalimdev/belajar-apache-maven"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MapForEachApp">
+  <component name="RunManager" selected="Application.OptionalApp">
     <configuration name="ForEachApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mypackage.lambda.app.ForEachApp" />
+      <module name="belajar-java-lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mypackage.lambda.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LazyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mypackage.lambda.app.LazyApp" />
       <module name="belajar-java-lambda" />
       <extension name="coverage">
         <pattern>
@@ -63,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodReferenceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mypackage.lambda.app.MethodReferenceApp" />
+    <configuration name="OptionalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mypackage.lambda.app.OptionalApp" />
       <module name="belajar-java-lambda" />
       <extension name="coverage">
         <pattern>
@@ -89,26 +102,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupplierApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mypackage.lambda.app.SupplierApp" />
-      <module name="belajar-java-lambda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mypackage.lambda.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OptionalApp" />
+        <item itemvalue="Application.LazyApp" />
         <item itemvalue="Application.MapForEachApp" />
         <item itemvalue="Application.RemoveIfApp" />
         <item itemvalue="Application.ForEachApp" />
-        <item itemvalue="Application.MethodReferenceApp" />
-        <item itemvalue="Application.SupplierApp" />
       </list>
     </recent_temporary>
   </component>
